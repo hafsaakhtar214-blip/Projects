@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Practice of js</title>
+    <style type="text/css">
+        .circle {
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin: 10px;
+            border-radius: 100px;
+        }
+
+        #blue-circle {
+            background-color: blue;
+        }
+
+        #yellow-circle {
+            background-color: yellow;
+        }
+
+        #green-circle {
+            background-color: green;
+        }
+
+        .circle:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle" id="blue-circle"></div>
+    <div class="circle" id="yellow-circle"></div>
+    <div class="circle" id="green-circle"></div>
+
+    <script type="text/javascript">
+        document.getElementById("blue-circle").onclick = function () {
+            document.getElementById("blue-circle").style.display = "none";
+        }
+        document.getElementById("yellow-circle").onclick = function () {
+            document.getElementById("yellow-circle").style.display = "none";
+        }
+        document.getElementById("green-circle").onclick = function () {
+            document.getElementById("green-circle").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

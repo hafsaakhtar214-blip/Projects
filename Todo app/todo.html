@@ -1,0 +1,105 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Taskly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="containerm">
+        <div class="header">
+            <div class="header-left">
+                <h1>TASKLY</h1>
+            </div>
+            <div class="header-right">
+                <label for="search">Search:&nbsp;</label>
+                <input id="search" type="text" placeholder="search">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menutop">
+            <button id="task" class="ripplebtn btn" onclick="createRipple(event)">
+                <i class="fa-solid fa-list"></i>
+                <span>Tasks</span></button>
+            <button id="cal" class="ripplebtn btn" onclick="createRipple(event)">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Calender</span></button>
+                </div>
+                <div class="menubottom">
+                <a href="login.html"><button id="loginbtn" class="ripplebtn btn" onclick="createRipple(event)">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    <span>Login</span></button></a>
+                <button id="logoutbtn" class="ripplebtn btn" onclick="createRipple(event)">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <span>Logout</span></button>
+                    </div>
+        </div>
+        <div id="ma" class="main">
+            <h1 id="name" style="font-style: italic; font-size:40px;">Welcome</h1>
+            <h2 id="date"></h2>
+            <button id="add-task" style="margin-top: 17px; font-size: 16px; font-weight: bold; justify-content: center;"
+                class="ripplebtn btnm" onclick="createRipple(event)">
+                <i class="fa-solid fa-plus"></i>
+                <span>Add Task</span>
+            </button>
+            <div class="container">
+                <div style="margin-top:16px;" class="enter">
+                    <label style="font-weight: bold; font-size: 18px;">Task: &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+                    <textarea id="task-name" name="task" placeholder="Enter the task" rows="2" cols="35"></textarea>
+                </div>
+
+                <div class="enter">
+                    <label style="font-weight: bold; font-size: 18px;">Priority:&nbsp &nbsp &nbsp</label>
+                    <select id="task-priority" style="width:130px; height:28px; font-size: 14px;">
+                        <option value="">--Select--</option>
+                        <option value="low">Low</option>
+                        <option value="normal">Normal</option>
+                        <option value="high">High</option>
+                    </select>
+                </div>
+
+                <div class="enter">
+                    <label style="font-weight: bold; font-size: 18px;">Date: &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+                    <input id="task-date" style="width:130px; height:28px; font-size: 14px;" type="date">
+                </div>
+
+                <div class="enter" style="justify-content: center;">
+                    <button id="task-save" style="margin-top: 7px; height: 32px;" class="ripplebtn"
+                        onclick="createRipple(event)">Save</button>
+                </div>
+            </div>
+        </div>
+        <div id="showcal" style="display:none;" class="main">
+            <div class="calbody">
+                <h1 style="align-items: center;">CALENDER</h1>
+                <div class="calender">
+                    <div class="headerc">
+                        <div id="prev" class="btn"><i class="fa-solid fa-arrow-left"></i></div>
+                        <div id="month-year"></div>
+                        <div id="next" class="btnc"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                    <div class="weekdays">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
+                    <div class="days" id="days">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="todo.js"></script>
+
+</body>
+
+</html>

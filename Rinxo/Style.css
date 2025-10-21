@@ -1,0 +1,72 @@
+.container
+{
+    max-width: 100%;
+    margin:10px;
+}
+body
+{
+    font-family:  Calibri, sans-serif;
+    font-size: 12px;
+    margin:0;
+}
+.header
+{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    padding-top: 40px;
+}
+.header p
+{
+    justify-self: end;
+}
+.grid
+{
+    display:grid;
+    align-items: left;
+    gap: 5px;
+    padding: 10px;
+}
+.accountinfo
+{
+     grid-template-columns: repeat(3,auto);
+}
+.accountinfo p:nth-child(3) 
+{
+    justify-self: end;
+}
+.order
+{
+     grid-template-columns: repeat(15,auto);
+}
+.size
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.Deals
+{
+    grid-template-columns: repeat(14,auto);
+}
+.Span2
+{
+    grid-column: span 2;
+}
+.Dealsf
+{
+     grid-template-columns: repeat(5,auto);
+}
+.Position
+{
+    grid-template-columns: repeat(13,auto);
+}
+.floating
+{
+    grid-template-columns: repeat(6,auto);
+    grid-column:5;
+    text-align: left;
+}
+.Working
+{
+    grid-template-columns: repeat(13,auto);
+}

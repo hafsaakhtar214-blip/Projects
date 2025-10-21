@@ -1,0 +1,468 @@
+body {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  height: 100%;
+}
+
+.containerm {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #444;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  z-index: 1500;
+  gap: 30px;
+  padding: 10px;
+}
+
+.header-left h1 {
+  font-size: 32px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-right label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header-right input {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 20px;
+}
+
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  position: fixed;
+  justify-content: space-between;
+  left: 0;
+  top: 0;
+  width: 130px;
+  background-color: rgb(56, 55, 55);
+  height: 100%;
+  gap: 7px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.menutop {
+  display: flex;
+  padding: 83px 0;
+  flex-direction: column;
+}
+
+.menubottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.end {
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
+.ripplebtn {
+  background-color: #f0f0f0;
+  color: rgb(10, 10, 10);
+  height: 35px;
+  width: 110px;
+  padding: 7px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.ripplebtn:hover {
+  background-color: rgb(31, 30, 30);
+  color: white;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: white;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: rgba(255, 255, 255, 0.5);
+  animation: ripple-animation 0.6s ease-out;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes ripple-animation {
+  0% {
+    transform: scale(0);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(3.5);
+    opacity: 0;
+  }
+}
+
+.btn {
+  display: flex;
+  border-radius: 8px;
+  margin-top: 10px;
+  align-items: center;
+  cursor: pointer;
+  gap: 3px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  width: 110px;
+}
+
+.main {
+  display: flex;
+  margin-left: 140px;
+  flex-direction: column;
+  align-items: left;
+  min-height: 100vh;
+  padding: 30px;
+  padding-top: 93px;
+}
+
+.main h1 {
+  font-style: italic;
+  font-size: 40px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+#date {
+  font-size: 20px;
+  margin: 0;
+  color: gray;
+}
+
+.btnm {
+  display: flex;
+  border-radius: 8px;
+  margin-top: 10px;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  gap: 3px;
+  margin-top: 15px;
+  border-color: rgb(61, 60, 60);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.container {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  width: 400px;
+  height: 180px;
+  background-color: rgb(61, 61, 61);
+  justify-content: left;
+  gap: 4px;
+  border-radius: 4px;
+  padding-left: 6px;
+  margin: 10px;
+}
+
+.enter {
+  display: flex;
+  align-items: left;
+  margin-top: 6px;
+  color: white;
+}
+
+.calbody {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.calender {
+  background-color: rgb(49, 49, 49);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #222222;
+  overflow: hidden;
+  width: 700px;
+  color: white;
+  padding: 20px;
+  margin-top: 13px;
+}
+
+.headerc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.btnc {
+  cursor: pointer;
+}
+
+#month-year {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.weekdays,
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.days {
+  height: 210px
+}
+
+.weekdays div,
+.days div {
+  width: 14.28%;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+
+.days div {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.days div:hover {
+  background-color: white;
+  color: black;
+}
+
+.days .today {
+  background-color: blue;
+  color: white;
+}
+
+.days .fade {
+  color: #555;
+}
+
+
+.signcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  background-color: rgb(59, 58, 58);
+  flex-direction: column;
+  color: white;
+  height: 360px;
+  width: 300px;
+  gap: 5px;
+  margin: 0;
+  border-width: 2px;
+  border-color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.enterbtn {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  gap: 3px;
+}
+
+.signmain {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    margin-top: auto;
+    margin-bottom: 4px;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    gap:0px;
+    background-color: rgb(36, 36, 37)
+  }
+
+  .menutop {
+    flex-direction: row;
+    justify-content: space-around;
+    gap:15px;
+    padding:0px;
+  }
+
+  .menubottom {
+    flex-direction: row;
+     justify-content: space-around;
+     gap:15px;
+    padding:0px;
+  }
+
+  .main {
+    padding-top: 120px;
+    margin-left: 0;
+    padding-bottom: 70px;
+    margin-top: 20px;
+  }
+
+  .main h1 {
+    font-size: 27px;
+  }
+
+  .ripplebtn {
+    padding: 3px 6px;
+    font-size: 11px;
+    height: 27px;
+    width: 80px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .header-left h1 {
+    font-size: 20px;
+  }
+
+  .header-right {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .header-right label {
+    font-size: 14px;
+  }
+
+  .header-right input {
+    width: 100%;
+  }
+
+  .container {
+    width: 250px;
+    height: 180px;
+  }
+
+  .btnm {
+    width: 120px;
+  }
+
+  .calender {
+    padding: 10px;
+    max-width: 320px;
+  }
+
+  #month-year {
+    font-size: 16px;
+  }
+
+  .weekdays div,
+  .days div {
+    font-size: 12px;
+    padding: 4px 0;
+  }
+
+  .sign {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .label {
+    font-size: 14px;
+    margin: 6px 0;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    padding: 6px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .enterbtn {
+    width: 100%;
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .sign p {
+    font-size: 12px;
+    margin-top: 4px;
+    text-align: center;
+  }
+
+  .signmain {
+    margin-top: 150px;
+  }
+}
