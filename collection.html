@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classic Bachet Store | All Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+ <header class="header">
+        <div class="header-top">
+               <nav class="main-nav">
+        <a href="collection.html" class="all-products-btn">
+            <i class="fas fa-store"></i> All Products
+        </a>
+    </nav>
+            <a href="index.html" class="logo">CLASSIC BACHET STORE</a>
+
+            <div class="header-right">
+                <a href="login.html" id="loginIcon" class="header-icon">
+                    <i class="fas fa-user"></i>
+                </a>
+                <div class="user-menu" id="userMenu">
+                    <span id="userName" class="user-name"></span>
+                    <div class="dropdown" id="userDropdown">
+                        <button id="logoutBtn">Logout</button>
+                    </div>
+                </div>
+                <a href="cart.html" class="header-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+
+            </div>
+        </div>
+        <div class="search-row">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search products..." />
+            </div>
+        </div>
+    </header>
+
+
+<div class="header-space"></div>
+<section class="collection-container">
+    <h1 style="text-align: center; margin: 20px;">Products</h1>
+    <div id="productsGrid" class="products-grid"></div>
+    <p id="noProducts" class="no-products">No products found</p>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <p>&copy; 2026 Classic Bachet Store. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <h4>Our Location</h4>
+            <p>123 Main Street, Gulberg, Lahore, Pakistan</p>
+            <p>Email: support@classicbachetstore.com</p>
+            <p>Phone: +92 300 1234567</p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

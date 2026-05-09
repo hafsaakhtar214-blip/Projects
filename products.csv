@@ -1,0 +1,233 @@
+ProductID,ProductName,Image,Category,Price,Weight
+1,Haleeb CreamYum,1.png,Dairy,250,200gm
+2,Haleeb Milk,2.png,Dairy,100,250ml
+3,Haleeb Milk,2.png,Dairy,350,1000ml
+4,Nurpur Milk,3.png,Dairy,100,250ml
+5,Nurpur Milk,3.png,Dairy,300,1 Liter
+6,Nurpur Milk,3.png,Dairy,450,1500ml
+7,Milk Pack Milk,7.png,Dairy,300,250ml
+8,Milk Pack Milk,8.png,Dairy,450,1Liter
+9,Nestle Cream,9.png,Dairy,5010,(1x10)
+10,Olper Milk,10.png,Dairy,100,250ml
+11,Olper Milk,11.png,Dairy,300,1Liter
+12,Olper Milk,11.png,Dairy,450,1500ml
+13,Olpers Cream,12.png,Dairy,220,200gm
+14,Rooh Afza,14.png,Beverages,500,800ml
+15,Rooh Afza,14.png,Beverages,800,1500ml
+16,Rooh Afza,14.png,Beverages,1400,3000ml
+17,Jam E Shireen,17.png,Beverages,500,800ml
+18,Jam E Shireen,18.png,Beverages,800,1500ml
+19,Jam E Shireen,18.png,Beverages,1400,3000ml
+20,NesCafe 3in1 sachet,20.png,Coffee,65,15g
+21,NesCafe Jar,21.png,Coffee,750,50gm
+22,NesCafe Jar,22.png,Coffee,1500,100gm
+23,Molfix Jumbo Pack,23.png,Baby Care,2070,"(2,3,4,5)"
+24,GoodCare Jumbo Pamper,24.png,Snacks,1200,(2�6)
+25,Khajur Oil (1x5),25.png,Oil,2400,5Liter
+26,Khajur Ghee (1x5),26.png,Oil,2400,5Kg
+27,Islamabad Oil (1x5),27.png,Oil,2250,5Liter
+28,Islamabad Ghee (1x5),28.png,Oil,2250,5Kg
+29,Latif Oil (1x5),29.png,Oil,2400,5Liter
+30,Latif Ghee (1x5),30.png,Oil,2550,5Kg
+31,Dalda Oil (1x5),31.png,Oil,2750,5Liter
+32,Dalda Ghee (1x5),32.png,Oil,2750,5Kg
+33,Habib Ghee (1x5),33.png,Oil,2730,5Kg
+34,Habib OIL (1x5),34.png,Oil,2730,5Liter
+35,Meezan Cooking Oil(1x5),35.png,Oil,2650,5Kg
+36,Meezan Cooking Ghee(1x5),36.png,Oil,2650,5Liter
+37,Everyday Sachet,37.png,Dairy,30,13gm
+38,Everyday,38.png,Dairy,440,230gm
+39,Everyday,38.png,Dairy,700,350gm
+40,Everyday,38.png,Dairy,1100,560gm
+41,Everyday,38.png,Dairy,1600,850gm
+42,Nido Bunyad,39.png,Dairy,500,26gm
+43,Nido Bunyad,40.png,Dairy,1300,130gm
+44,Nido Bunyad,40.png,Dairy,480,260gm
+45,Nido Bunyad,40.png,Dairy,1600,910gm
+46,Nido FortiGrow,41.png,Dairy,1000,390gm
+47,Nido FortiGrow,41.png,Dairy,2100,900gm
+48,Nido 1+,43.png,Dairy,1000,375gm
+49,Nido 1+,43.png,Dairy,2300,900gm
+50,Nido 3+,50.png,Dairy,1000,375gm
+51,Nido 3+,50.png,Dairy,2000,800gm
+52,Cerelac Wheat,52.png,Snacks,850,350gm
+53,Ariel Downy,53.png,Cleaning,275,500gm
+54,Ariel Original,54.png,Cleaning,275,500gm
+55,Ariel Original,55.png,Cleaning,550,1kg
+56,Ariel Original,55.png,Cleaning,1040,2kg
+57,Ariel Original,55.png,Cleaning,1500,3kg
+58,Surf Excel,58.png,Cleaning,270,500gm
+59,Surf Excel,59.png,Cleaning,580,1kg
+60,Surf Excel,59.png,Cleaning,1040,2kg
+61,Brite,60.png,Cleaning,270,500gm
+62,Brite,61.png,Cleaning,550,1kg
+63,Brite,61.png,Cleaning,1000,2kg
+64,Express,63.png,Cleaning,200,500gm
+65,Express,64.png,Cleaning,400,1kg
+66,Express,64.png,Cleaning,570,1.5kg
+67,Bonus Red,67.png,Cleaning,250,700gm
+68,Bonus Yellow,68.png,Cleaning,50,225gm
+69,Bonus Yellow,68.png,Cleaning,100,500gm
+70,Bonus Yellow,68.png,Cleaning,230,1kg
+71,Bonus Yellow,68.png,Cleaning,300,1.5kg
+72,Rin,72.png,Cleaning,180,500gm
+73,Rin,73.png,Cleaning,380,1kg
+74,Breeo Surf,74.png,Cleaning,225,500gm
+75,Breeo Surf,74.png,Cleaning,450,1kg
+76,Vim Powder,76.png,Cleaning,110,460gm
+77,Vim Powder,76.png,Cleaning,150,790gm
+78,Vim bar,78.png,Cleaning,25,59gm
+79,Vim bar,78.png,Cleaning,70,224gm
+80,Sufi Laundry Soap,80.png,Cleaning,520,4pc
+81,Sufi Laundry Powder,81.png,Cleaning,550,1Kg
+82,Sufi Laundry Powder,81.png,Cleaning,275,500gm
+83,Khajur,83.png,Snacks,115,200gm
+84,Munch,84.png,Snacks,70,100gm
+85,Munch,84.png,Snacks,145,200gm
+86,KitKat,85.png,Snacks,90,100gm
+87,KitKat,85.png,Snacks,135,150gm
+88,Cadbury Dairy Milk,88.png,Snacks,100,100gm
+89,Cadbury Dairy Milk,88.png,Snacks,200,200gm
+90,Dairy Milk Silk,90.png,Snacks,225,180gm
+91,Flour (5 kg),91.png,Grains,420,5kg
+92,Tang Mango,92.png,Beverages,320,375gm
+93,Tang Pineapple,93.png,Beverages,320,375gm
+94,Tang Lemon Peper,94.png,Beverages,320,375gm
+95,Tang orange,95.png,Beverages,740,750gm
+96,Tang Mango,92.png,Beverages,740,750gm
+97,Tang Pineapple,93.png,Beverages,740,750gm
+98,Tang Lemon Peper,94.png,Beverages,740,750gm
+99,Tang Orange,95.png,Beverages,25,35gm
+100,Tang Mango,92.png,Beverages,25,35gm
+101,Tang Pineapple,93.png,Beverages,25,35gm
+102,Tang Lemon Peper,94.png,Beverages,25,35gm
+103,Tang Orange,95.png,Beverages,100,80gm
+104,Tang Mango,92.png,Beverages,100,80gm
+105,Tang Pineapple,93.png,Beverages,100,80gm
+106,Tang Lemon Peper,94.png,Beverages,100,80gm
+107,Daal Chana,107.png,Grains,275,1kg
+108,Daal Masoor,108.png,Grains,300,1kg
+109,Daal black Masoor,109.png,Grains,280,1kg
+110,Daal Mash,110.png,Grains,420,1kg
+111,Daal Mash half cut,111.png,Grains,480,1kg
+112,Daal Mash whole,112.png,Grains,480,1kg
+113,White Small Chana,113.png,Grains,280,1kg
+114,White large Chana,114.png,Grains,350,1kg
+115,Black Chana,115.png,Grains,280,1kg
+116,White Lobia,116.png,Grains,340,1kg
+117,Knorr Noodle chatpata,117.png,Snacks,30,28g
+118,Red Lobia large,118.png,Grains,540,1kg
+119,Red Lobia chitri,119.png,Grains,400,1kg
+120,Daal Mong Washed,120.png,Grains,380,1kg
+121,Daal Mong half cut,121.png,Grains,400,1kg
+122,Daal Mong Whole,122.png,Grains,400,1kg
+123,Baisan,123.png,Snacks,300,1kg
+124,maida,124.png,Grains,100,1kg
+125,Suji,125.png,Grains,100,1kg
+126,tota Grains,126.png,Grains,220,1kg
+127,Sela Grains (5kg),127.png,Grains,1700,5kg
+128,Steamed Grains (5kg),128.png,Tea,1500,5kg
+129,Basmati Grains,129.png,Grains,260,1kg
+130,Basmati Grains,129.png,Grains,300,1kg
+131,Basmati Grains,129.png,Grains,320,1kg
+132,Basmati Grains,129.png,Grains,340,1kg
+133,Basmati Grains,129.png,Grains,350,1kg
+134,Ok Phenyl,130.png,Cleaning,200,2.75L
+135,Ok Bleach,131.png,Cleaning,130,500ml
+136,Ok Bleach,131.png,Cleaning,220,1L
+137,OK Dishwash Liquid,132.png,Snacks,300,475ml
+138,OK Glass & Window Cleaner,133.png,Snacks,220,500ml
+139,OK Toilet Cleaner,134.png,Oil,200,625ml
+140,OK Toilet Cleaner,134.png,Oil,400,1250ml
+141,chaki Salt,141.png,Salt & Spices,30,1kg
+142,National Iodized Salt,142.png,Salt & Spices,70,800gm
+143,National Pink salt,143.png,Salt & Spices,80,800gm
+144,National Refined Salt,144.png,Salt & Spices,70,800gm
+145,Marhaba Pink salt,145.png,Salt & Spices,80,800gm
+146,Dhania sabt,146.png,Salt & Spices,200,250g
+147,Dhania sabt,146.png,Salt & Spices,400,500g
+148,Dhania sabt,146.png,Salt & Spices,800,1kg
+149,Dhania Powder,149.png,Salt & Spices,200,250g
+150,Dhania Powder,149.png,Salt & Spices,400,500g
+151,Dhania Powder,149.png,Salt & Spices,800,1kg
+152,Red chilli half cut,151.png,Salt & Spices,250,250g
+153,Red chilli half cut,151.png,Salt & Spices,500,500g
+154,Red chilli half cut,151.png,Salt & Spices,1000,1kg
+155,Red chilli Powder,150.png,Salt & Spices,250,250g
+156,Red chilli Powder,150.png,Salt & Spices,500,500g
+157,Red chilli Powder,150.png,Salt & Spices,1000,1kg
+158,Tumeric powder,152.png,Salt & Spices,250,250g
+159,Tumeric powder,152.png,Salt & Spices,500,500g
+160,Tumeric powder,152.png,Salt & Spices,1000,1kg
+161,National Mango Pickle Jar,153.png,Snacks,590,1kg
+162,National Mix Pickle Jar,162.png,Snacks,590,1kg
+163,National Mixed Pickle,162.png,Snacks,320,400gm
+164,National Mixed Pickle,162.png,Snacks,100,150gm
+165,Youngs Mayonnaise,163.png,Snacks,160,200gm
+166,Youngs Mayonnaise,163.png,Snacks,350,500gm
+167,Youngs Mayonnaise,163.png,Snacks,620,1kg
+168,Chicken Spread,164.png,Snacks,280,200gm
+169,Chicken Spread,164.png,Snacks,650,500gm
+170,Chicken Spread,164.png,Snacks,1200,1kg
+171,National Ketchup,165.png,Snacks,130,225gm
+172,National Ketchup,165.png,Snacks,200,400gm
+173,National Ketchup,165.png,Snacks,360,800gm
+174,National Chilli Garlic,166.png,Snacks,130,200gm
+175,National Chilli Garlic,166.png,Snacks,200,400gm
+176,National Chilli Garlic,166.png,Snacks,360,800gm
+177,ShangriLa Ketchup,177.png,Snacks,200,400gm
+178,ShangriLa Ketchup,177.png,Snacks,350,800gm
+179,ShangriLa Chilli Garlic,179.png,Snacks,130,200gm
+180,ShangriLa Chilli Garlic,179.png,Snacks,200,400gm
+181,ShangriLa Chilli Garlic,179.png,Snacks,350,800gm
+182,Flour (10kg),91.png,Grains,720,10kg
+183,Flour (20kg),91.png,Grains,1440,20kg
+184,Flour Fine,91.png,Grains,1150,15kg
+185,Supreme Tea,182.png,Tea,190,80gm
+186,Supreme Tea,182.png,Tea,355,160gm
+187,Supreme Tea,182.png,Tea,850,430gm
+188,Supreme Tea,182.png,Tea,1700,850gm
+189,Lipton Tea,189.png,Tea,220,85gm
+190,Lipton Tea,189.png,Tea,400,170gm
+191,Lipton Tea,189.png,Tea,1150,430gm
+192,Lipton Tea,189.png,Tea,2200,900gm
+193,Islamabad Tea,193.png,Tea,180,85gm
+194,Islamabad Tea,193.png,Tea,380,170gm
+195,Islamabad Tea,193.png,Tea,900,430gm
+196,Islamabad Tea,193.png,Tea,1800,900gm
+197,Tapel Tea,197.png,Tea,180,85gm
+198,Tapel Tea,197.png,Tea,380,170gm
+199,Tapel Tea,197.png,Tea,900,430gm
+200,Tapel Tea,197.png,Tea,1800,900gm
+201,Family Mixture Tapel Tea,201.png,Tea,180,85gm
+202,Family Mixture Tapel Tea,201.png,Tea,380,170gm
+203,Family Mixture Tapel Tea,201.png,Tea,900,430gm
+204,Family Mixture Tapel Tea,201.png,Tea,1800,900gm
+205,Tazedum Tapel Tea,203.png,Tea,180,85gm
+206,Tazedum Tapel Tea,203.png,Tea,380,170gm
+207,Tazedum Tapel Tea,203.png,Tea,900,430gm
+208,Tazedum Tapel Tea,203.png,Tea,1800,900gm
+209,Vital Tea,209.png,Tea,180,85gm
+210,Vital Tea,209.png,Tea,380,170gm
+211,Vital Tea,209.png,Tea,900,430gm
+212,Vital Tea,209.png,Tea,1800,900gm
+213,ShangriLaMango Pickle Jar,213.png,Snacks,590,1kg
+214,ShangriLa Mix Pickle Jar,214.png,Snacks,590,1kg
+215,ShangriLa Mixed Pickle,214.png,Snacks,320,400gm
+216,ShangriLa Mixed Pickle,214.png,Snacks,100,150gm
+217,Knorr Pulao Cube,217.png,Snacks,75,30gm
+218,Knorr Chicken Cube,218.png,Snacks,75,30gm
+219,Knorr Noodle chicken,219.png,Snacks,30,28g
+220,Red Lobia small,118.png,Grains,440,1kg
+221,Knorr Noodle chicken,221.png,Snacks,30,28g
+222,Knorr Noodle chatpata,222.png,Snacks,50,48g
+223,Knorr Noodle Balzin,223.png,Snacks,50,48g
+224,Knorr soop,224.png,Snacks,150,100gm
+225,Harpic,225.png,Cleaning,150,160gm
+226,Eggs,226.png,Dairy,200,225ml
+227,Poweplus Harpic,227.png,Cleaning,410,1 dozen
+228,Poweplus Harpic,227.png,Cleaning,200,225ml
+229,Plain Bread ,229.png,Dairy,475,450ml
+230,Wheat Bread,230.png,Dairy,110,340g
+231,Harpic,225.png,Cleaning,200,725g
+,,,,475,450ml
