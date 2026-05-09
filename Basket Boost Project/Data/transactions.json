@@ -1,0 +1,353 @@
+[
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "National Iodized Salt",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Red chilli half cut",
+        "quantity": 1
+      }
+    ],
+    "total": 320.0,
+    "transaction_id": 1,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Haleeb Milk",
+        "quantity": 1
+      },
+      {
+        "ProductName": "National Ketchup",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Eggs",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Plain Bread ",
+        "quantity": 1
+      }
+    ],
+    "total": 905.0,
+    "transaction_id": 2,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Haleeb Milk",
+        "quantity": 1
+      },
+      {
+        "ProductName": "National Ketchup",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Eggs",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Plain Bread ",
+        "quantity": 1
+      }
+    ],
+    "total": 905.0,
+    "transaction_id": 3,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Red Lobia large",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Knorr Noodle chatpata",
+        "quantity": 1
+      }
+    ],
+    "total": 570.0,
+    "transaction_id": 4,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "National Mixed Pickle",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Chicken Spread",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Flour (10kg)",
+        "quantity": 1
+      }
+    ],
+    "total": 1100.0,
+    "transaction_id": 5,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "NesCafe Jar",
+        "quantity": 1
+      }
+    ],
+    "total": 750.0,
+    "transaction_id": 6,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Daal Mong Whole",
+        "quantity": 1
+      }
+    ],
+    "total": 400.0,
+    "transaction_id": 7,
+    "date": "2026-01-09",
+    "discount": 0.0
+  },
+  {
+    "user_id": 2,
+    "items": [
+      {
+        "ProductName": "Eggs",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Tapel Tea",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Plain Bread ",
+        "quantity": 1
+      }
+    ],
+    "total": 855.0,
+    "transaction_id": 8,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 2,
+    "items": [
+      {
+        "ProductName": "Haleeb Milk",
+        "quantity": 1
+      }
+    ],
+    "total": 100.0,
+    "transaction_id": 9,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 2,
+    "items": [
+      {
+        "ProductName": "Nurpur Milk",
+        "quantity": 1
+      }
+    ],
+    "total": 100.0,
+    "transaction_id": 10,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 2,
+    "items": [
+      {
+        "ProductName": "Haleeb CreamYum",
+        "quantity": 1
+      }
+    ],
+    "total": 250.0,
+    "transaction_id": 11,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 2,
+    "items": [
+      {
+        "ProductName": "Rooh Afza",
+        "quantity": 1
+      }
+    ],
+    "total": 1400.0,
+    "transaction_id": 12,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 2,
+    "items": [
+      {
+        "ProductName": "Haleeb CreamYum",
+        "quantity": 1
+      }
+    ],
+    "total": 250.0,
+    "transaction_id": 13,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 2,
+    "items": [
+      {
+        "ProductName": "Dalda Ghee (1x5)",
+        "quantity": 1
+      }
+    ],
+    "total": 2750.0,
+    "transaction_id": 14,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 2,
+    "items": [
+      {
+        "ProductName": "Haleeb Milk",
+        "quantity": 1
+      }
+    ],
+    "total": 100.0,
+    "transaction_id": 15,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 3,
+    "items": [
+      {
+        "ProductName": "Haleeb CreamYum",
+        "quantity": 1
+      }
+    ],
+    "total": 250.0,
+    "transaction_id": 16,
+    "date": "2026-01-09",
+    "discount": 0.0
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Eggs",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Plain Bread ",
+        "quantity": 1
+      }
+    ],
+    "total": 675.0,
+    "transaction_id": 17,
+    "date": "2026-01-09",
+    "discount": 0.0
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Haleeb Milk",
+        "quantity": 1
+      }
+    ],
+    "total": 100.0,
+    "transaction_id": 18,
+    "date": "2026-01-09",
+    "discount": 0.0
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Haleeb CreamYum",
+        "quantity": 1
+      }
+    ],
+    "total": 250.0,
+    "shipping": {
+      "name": "",
+      "phone": "",
+      "city": "",
+      "address": ""
+    },
+    "transaction_id": 19,
+    "date": "2026-01-09",
+    "discount": 0.0
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Haleeb Milk",
+        "quantity": 1
+      }
+    ],
+    "total": 100.0,
+    "shipping": {
+      "name": "",
+      "phone": "",
+      "city": "",
+      "address": ""
+    },
+    "transaction_id": 20,
+    "date": "2026-01-09",
+    "discount": 0.05
+  },
+  {
+    "user_id": 1,
+    "items": [
+      {
+        "ProductName": "Haleeb Milk",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Eggs",
+        "quantity": 1
+      },
+      {
+        "ProductName": "Islamabad Tea",
+        "quantity": 1
+      }
+    ],
+    "total": 480.0,
+    "shipping": {
+      "name": "abc",
+      "phone": "987754211",
+      "city": "pindi",
+      "address": "ftdgrrdthd, mmm"
+    },
+    "transaction_id": 21,
+    "date": "2026-01-09",
+    "discount": 0.05
+  }
+]
