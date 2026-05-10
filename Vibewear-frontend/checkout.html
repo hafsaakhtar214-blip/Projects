@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - VIBE WEAR</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header" style="height: 120px;">
+      <div class="header-top">
+    <a href="index.html" class="logo">VIBE WEAR</a>
+    <div class="header-right">
+        <a href="#" class="header-icon" id="userIcon"><i class="fas fa-user"></i></a>
+    </div>
+</div>
+  </header>
+
+  <main class="checkout-container">
+    <h1>Checkout</h1>
+    <form id="checkoutForm">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="John Doe" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="0300-1234567" required>
+      </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" id="city" placeholder="Karachi" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea id="address" rows="4" placeholder="123 Street, Country" required></textarea>
+      </div>
+      <button type="submit" class="btncheck">Place Order</button>
+    </form>
+  </main>
+ <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Get In Touch</h3>
+                <p>Contact Us: +92 333 3476542</p>
+                <p>Email: support@vibewear.com</p>
+                <p>Location: Plot #2 B, Main Warsak Rd, I-9 Markaz, Islamabad, Pakistan</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="footer-social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
