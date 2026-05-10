@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Classic Bachet Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <nav class="main-nav">
+                <a href="collection.html" class="all-products-btn">
+                    <i class="fas fa-store"></i> All Products
+                </a>
+            </nav>
+            <a href="index.html" class="logo">CLASSIC BACHET STORE</a>
+
+            <div class="header-right">
+                <a href="login.html" id="loginIcon" class="header-icon">
+                    <i class="fas fa-user"></i>
+                </a>
+                <div class="user-menu" id="userMenu">
+                    <span id="userName" class="user-name"></span>
+                    <div class="dropdown" id="userDropdown">
+                        <button id="logoutBtn">Logout</button>
+                    </div>
+                </div>
+                <a href="cart.html" class="header-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="header-space"></div>
+
+    <section class="cart-section cart-container">
+        <h2>Your Cart</h2>
+        <div id="cartContainer" class="cart-items"></div>
+        <h2 style="text-align: center; margin-bottom: 10px;">Add your Information</h2>
+            <div class="checkout-card" >
+                <form id="checkoutForm">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                    <input type="text" id="city" placeholder="City" required>
+                    <textarea id="address" placeholder="Full Address" required></textarea>
+                </form>
+            </div>
+        <div id="cartTotal" class="cart-summary">
+            <div class="total">Total: Rs. 0</div>
+            <button id="checkoutBtn" class="checkout-btn">Checkout</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2026 Classic Bachet Store. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h4>Our Location</h4>
+                <p>123 Main Street, Gulberg, Lahore, Pakistan</p>
+                <p>Email: support@classicbachetstore.com</p>
+                <p>Phone: +92 300 1234567</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
